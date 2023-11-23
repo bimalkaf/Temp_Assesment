@@ -1,0 +1,21 @@
+Pseudo code
+
+Start
+
+Main Program:
+    Initialize x and y to 0 to initial position
+    Extract direction, and noOfMove from each command
+    Update x coordinate on respect to direction and noOfMove
+    After all command process, 
+    Check if x > 0 then its East
+    Check if x < 0 then its West
+    Else its Initial 
+
+moveX Function:
+    Takes currentPosition,direction,noOfMove
+    if direction is 'R' add noOfMove to currentPosition
+    if direction is 'L' subtract noOfMove from currentPosition
+    return updated currentPosition
+
+
+End
